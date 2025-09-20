@@ -12,7 +12,9 @@ Hoisting is a behavior in JavaScript where **variable and function declarations 
   ```javascript
   console.log(a); // undefined
   var a = 10;
+
 - **Functions**: The entire function code is stored in memory, so function declarations can be called before they appear in the code.
+```javascript
         greet(); // "Hello!"
         function greet() {
             console.log("Hello!");
